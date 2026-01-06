@@ -6,7 +6,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/hikmet-penceresi">
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/login' element={<Login />} />
